@@ -1,0 +1,25 @@
+Oil Price Prediction
+This project predicts oil prices using machine learning models, trained on a time-series dataset of 2.5 million data points.
+
+Models & Metrics:
+Models Used: Linear Regression, Random Forest Regressor, XGBoost Regressor.
+
+Best Model: XGBoost Regressor after hyperparameter tuning.
+
+Performance:
+
+R² Score: 0.8614
+
+RMSE: 333,684.80 (Test Set)
+
+MAE: 217.84 (Test Set)
+
+Features:
+Data preprocessing and feature engineering with one-hot encoding.
+
+Hyperparameter tuning using GridSearchCV for better performance.
+
+Requirements:
+Python 3.x
+
+Libraries: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn
